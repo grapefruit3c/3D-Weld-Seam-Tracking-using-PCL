@@ -1,0 +1,59 @@
+﻿# Build outputs
+build/
+*/build/
+cmake-build-*/
+out/
+bin/
+obj/
+lib/
+
+# IDE
+.vs/
+.idea/
+*.suo
+*.user
+.vscode/
+*.swp
+*.swo
+*~
+
+# VS auto-generated
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj
+*.vcxitems
+Debug/
+Release/
+x64/
+Win32/
+ipch/
+*.pdb
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+
+# Data files
+*.pcd
+*.ply
+*.obj
+*.stl
+calib_images/
+calibration_result/
+captured_images/
+
+# Temp
+*.bak
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Env
+.env
+.env.local
+
+# Large files
+*.bin
+*.exr
+*.hdf5
+*.mat

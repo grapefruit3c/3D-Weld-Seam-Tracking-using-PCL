@@ -1,0 +1,27 @@
+{
+  "name": "m1-camera-calibration",
+  "version": "1.0.0",
+  "description": "M1 Camera Calibration Module for Bus Welding 3D Vision Guide System",
+  "homepage": "https://github.com/your-org/bus-welding-vision",
+  "dependencies": [
+    {
+      "name": "opencv4",
+      "version>=": "4.8.0",
+      "features": [
+        "core",
+        "calib3d",
+        "imgproc",
+        "imgcodecs",
+        "highgui"
+      ],
+      "default-features": false
+    }
+  ],
+  "builtin-baseline": "2024-04-01",
+  "overrides": [
+    {
+      "name": "opencv4",
+      "version": "4.8.1"
+    }
+  ]
+}

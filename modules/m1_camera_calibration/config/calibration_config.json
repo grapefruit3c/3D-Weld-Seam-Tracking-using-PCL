@@ -1,0 +1,31 @@
+{
+  "//": "M1 相机标定模块 - 默认配置文件",
+  "//": "这个文件可被 C# 上位机读取并传递给 C++ DLL",
+
+  "board": {
+    "width": 9,
+    "height": 6,
+    "square_size_mm": 30.0,
+    "//": "棋盘格参数：9x6 内角点，方格 30mm，
+     更大的方格（50mm）适合远距离拍摄"
+  },
+
+  "calibration": {
+    "min_images": 15,
+    "max_images": 25,
+    "use_rational_model": false,
+    "calibration_flags": 0,
+    "//": "calibration_flags 可组合使用：
+      CALIB_USE_INTRINSIC_GUESS = 1,
+      CALIB_FIX_PRINCIPAL_POINT = 2,
+      CALIB_FIX_ASPECT_RATIO = 4,
+      CALIB_ZERO_TANGENT_DIST = 8,
+      CALIB_RATIONAL_MODEL = 16384"
+  },
+
+  "output": {
+    "directory": "calibration_result",
+    "save_txt_format": true,
+    "save_visualization": true
+  }
+}

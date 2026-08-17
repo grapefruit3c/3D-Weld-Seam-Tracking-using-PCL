@@ -1,0 +1,17 @@
+﻿{
+  "name": "bus-welding-3d-vision",
+  "version": "1.0.0",
+  "description": "客车焊接3D视觉引导系统",
+  "dependencies": [
+    {
+      "name": "opencv4",
+      "version>=": "4.8.0",
+      "features": ["core","calib3d","imgproc","imgcodecs","highgui"]
+    },
+    {
+      "name": "pcl",
+      "version>=": "1.14.0",
+      "features": ["common","io","filters","features","segmentation"]
+    }
+  ]
+}
